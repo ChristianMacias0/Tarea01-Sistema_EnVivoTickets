@@ -9,6 +9,14 @@ public class Asiento {
 
     //METODOS
 
+    public void reservar(){
+
+    }
+
+    public void liberar(){
+        
+    }
+
 
 
 
@@ -19,21 +27,23 @@ public class Asiento {
         System.out.println("Estado: " + estado);
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     //GETTERS
 
 
