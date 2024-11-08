@@ -26,6 +26,14 @@ public class Ticket {
         //LOGICA DE VERIFICACION DE VALIDIDAD DEL TICKET
         return true;
     }
+    
+    public void generarCodigo(){
+        
+    }
+    
+    public void Editar(){
+        
+    }
 
 
     //GETTERS

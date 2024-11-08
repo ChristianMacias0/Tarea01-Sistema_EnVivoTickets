@@ -18,7 +18,14 @@ public class Asiento {
         System.out.println("Sección: " + seccion.getNombre());
         System.out.println("Estado: " + estado);
     }
-
+    
+    public void reservar(){
+        //Codigo
+    }
+    
+    public void liberar(){
+        //Codigo
+    }
 
 
 
