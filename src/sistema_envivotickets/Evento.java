@@ -18,10 +18,10 @@ public class Evento {
     public String getNombre() {
         return nombre;
     }
-    public int getTipo() {
+    public String getTipo() {
         return tipo;
     }
-    public int getDescripcion() {
+    public String getDescripcion() {
         return descripcion;
     }
 
