@@ -7,6 +7,36 @@ public class Asiento {
     private Seccion seccion;
     private Estado estado;
 
+    //METODOS
+
+
+
+
+    public void mostrarInformacion() {
+        System.out.println("ID: " + id);
+        System.out.println("Número: " + numero);
+        System.out.println("Sección: " + seccion.getNombre());
+        System.out.println("Estado: " + estado);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    //GETTERS
+
+
     public int getId(){
         return id;
     }
@@ -23,12 +53,6 @@ public class Asiento {
         return estado;
     }
 
-    public void mostrarInformacion() {
-        System.out.println("ID: " + id);
-        System.out.println("Número: " + numero);
-        System.out.println("Sección: " + seccion.getNombre());
-        System.out.println("Estado: " + estado);
-    }
-
+    
 
 }

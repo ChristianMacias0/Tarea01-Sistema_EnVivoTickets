@@ -10,6 +10,16 @@ public class Funcion {
     private Evento evento;
     private List<Seccion> secciones;
 
+    
+    //METODOS
+    
+
+
+
+
+
+
+    //GETTERS
     public int getId(){
         return id;
     }
