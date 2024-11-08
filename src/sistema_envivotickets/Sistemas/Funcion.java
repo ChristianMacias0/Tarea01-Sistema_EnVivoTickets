@@ -35,4 +35,5 @@ public class Funcion {
     public List<Seccion> getSecciones(){
         return secciones;
     }
+
 }

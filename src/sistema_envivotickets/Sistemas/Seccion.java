@@ -1,4 +1,4 @@
-package sistema_envivotickets;
+package sistema_envivotickets.Sistemas;
 
 public class Seccion {
     

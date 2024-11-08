@@ -16,16 +16,7 @@ public class Ticket {
     private Date fechaCompra;
 
     //METODOS
-    private static boolean confirmarCompra(){
-        // LOGICA DE VERIFICACION DE LA TRANSACCION DE COMPRA
-    }
-
-    public static Ticket comprarTicket(){
-        Ticket ticket = new Ticket();
-        //LOGICA DE COMPRA DE TICKET
-        
-        return confirmarCompra() ? ticket : null;
-    }
+   
 
     public void cancelarTicket(){
         //LOGICA DE CANCELACION DE TICKET
@@ -33,6 +24,7 @@ public class Ticket {
 
     public boolean esValido(){
         //LOGICA DE VERIFICACION DE VALIDIDAD DEL TICKET
+        return true;
     }
 
 
