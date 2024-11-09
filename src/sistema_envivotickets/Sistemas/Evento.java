@@ -6,36 +6,32 @@ public class Evento {
     private String tipo;
     private String descripcion;
 
-    //METODOS
-    public void agregarEvento(Evento evento){
-        //Agregar evento a la base de datos
-    }
-    public void eliminarEvento(Evento evento){
-        //Eliminar evento de la base de datos
-    }
-    public void gestionarPreciosPromociones(){
-        //Gestionar precios de las promociones de eventos
-    }
-    public void gestionarPoliticasCancelacion(String politicas){
-        //Gestionar politicas de cancelacion de eventos
-    }
-    public void gestionarConfiguracionEvento(){
-        //Gestionar configuracion de eventos
+    // Métodos
+    public void agregarEvento(Evento evento) {
+        // Simulación de agregación a la base de datos
+        System.out.println("Evento agregado: " + evento.getNombre());
     }
 
-    //Getters
-
-    public int getId() {
-        return id;
-    }
-    public String getNombre() {
-        return nombre;
-    }
-    public String getTipo() {
-        return tipo;
-    }
-    public String getDescripcion() {
-        return descripcion;
+    public void eliminarEvento(Evento evento) {
+        // Simulación de eliminación de la base de datos
+        System.out.println("Evento eliminado: " + evento.getNombre());
     }
 
+    public void gestionarPreciosPromociones() {
+        System.out.println("Configurando precios y promociones...");
+    }
+
+    public void gestionarPoliticasCancelacion(String politicas) {
+        System.out.println("Política de cancelación actualizada: " + politicas);
+    }
+
+    public void gestionarConfiguracionEvento() {
+        System.out.println("Configuración del evento actualizada.");
+    }
+
+    // Getters
+    public int getId() { return id; }
+    public String getNombre() { return nombre; }
+    public String getTipo() { return tipo; }
+    public String getDescripcion() { return descripcion; }
 }
